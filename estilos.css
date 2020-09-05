@@ -1,19 +1,41 @@
-main{
-    
-    
-    
-    background-color: violet;
+.f{
+   
+    font-family:  'Long Cang', cursive;
+}
+
+.p{
+    font-size :33px ;
+    font-size :33px ;
+    font-family:  'Long Cang', cursive;
+}
+
+.n{ 
+    font-weight: bold;
+    color: rgb(109, 10, 109);
+    font-family:  'Long Cang', cursive;
+}
 
 
+.p2{
 
+
+    font-style: italic;
+    color: rgb(27, 8, 27);
+    font-family:  'Long Cang', cursive;
+}
+.p22{
+
+
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-family:  'Long Cang', cursive;
 }
 
 
 
-p{
-    font-size: 15px;
-    font-family: 'Architects Daughter', cursive;
-    color: #200625;
+footer{
 
-}   
-.parrafo
+ 
+color: rgb(109, 10, 109);
+text-align: center;
+}
