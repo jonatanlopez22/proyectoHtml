@@ -41,11 +41,13 @@
         
         <form>
             <div class="row ">
-              <div class="col">
+              <div class="col-12 col-md-6">
                 <input type="text" class="form-control" placeholder="nombre" id="nombre">
+                
               </div>
-              <div class="col">
+              <div class="col-12 col-md-6">
                 <input type="text" class="form-control" placeholder="apellido" id="apellido">
+                
               </div>
             </div>
           
@@ -53,6 +55,7 @@
   
             <div class="form-group c">
               <input type="email" class="form-control" id="emailf" placeholder="email">
+              
             </div>
 
 
@@ -61,18 +64,19 @@
                   <div class="col-12 col-md-6">
                     <label for="exampleFormControlSelect1">sexo</label>
                     <select class="form-control" id="exampleFormControlSelect1">
-                      <option>m</option>
-                      <option>f</option>
+                      <option>masculino</option>
+                      <option>femenino</option>
+                      <option>otro</option>
+                      <option>no desea responder</option>
                     </select>
                   </div>
                   <div class="col-12 col-md-6 c">
                     <input type="password" class="form-control" placeholder="password" id="password">
+                   
                   </div>
                 </div>
               
-    
-   
-
+  
 
 
         <div class="row" >
@@ -81,7 +85,7 @@
 
         <p>Con esta declaración de privacidad queremos informar a todos los visitantes de nuestra página web de forma transparente sobre el tipo, el alcance y la finalidad de los datos personales recopilados, utilizados y sometidos a tratamiento por nosotros, así como informarle sobre los derechos que le asisten.</p>
 
-        <input type="checkbox">
+        <input type="checkbox" id="check">
         
         </div>
         </div> 
@@ -91,8 +95,9 @@
         <input type="button" value="registrate"  class="p-3 mb-2 bg-dark text-white" id= "boton">
         </div> 
 
-<div class="formularioMensaje" id="formularioMensaje">
-
+<div >
+  <small id="ayuda1" class="form-text text-danger "></small>
+  <small id="ayuda2" class="form-text text-success"></small>
 </div>
 
    
